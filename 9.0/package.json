@@ -1,0 +1,19 @@
+{
+  "name": "Serversidan",
+  "version": "1.0.0",
+  "description": "Uppgift 6.2.1",
+  "author": "Alex Rosell",
+  "dependencies": {
+    "alert-node": "^1.2.1",
+    "body-parser": "^1.18.1",
+    "config": "^1.26.2",
+    "document": "^0.4.7",
+    "express": "^4.15.4",
+    "hbs": "^4.0.1",
+    "js-alert": "^1.0.4",
+    "moment": "2.18.1",
+    "mongodb": "^3.1.3",
+    "nodemon": "^1.11.0",
+    "popups": "^1.1.3"
+  }
+}
