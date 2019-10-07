@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="sv">
+    <head>
+        <title>Uppgift 2.2.1</title>
+		<meta charset="UTF-8">
+    </head>
+    <body>
+        <form action="http://localhost:8001/get_it" method="get">
+            <h1> GET </h1>
+            <p>
+                <input type="text" placeholder="Namn" name="namn">
+				<br>
+                <textarea name="textfält" class="" rows="6" cols="7" placeholder="Skriv något"></textarea>
+            </p>
+            <p>
+                <input type="checkbox" name="checkbox">
+            </p>
+            <p>
+                <input type="radio" value="gillar glass" name="radioKnapp"> 
+                <input type="radio" value="gillar inte glass" name="radioKnapp2">
+            </p>
+            <p>
+                <select name="dropDownLista">
+                    <option value="röd">Röd</option>
+                    <option value="blå">Blå</option>
+                </select>
+            </p>
+            <button type="submit">GET</button>
+        </form>
+        <br><br>
+        <hr>
+        <form action="http://localhost:8001/post_it" method="post">
+            <h1> POST </h1>
+            <p>
+                <input type="text" placeholder="Namn" name="namn"><br>
+                <textarea name="textfält" class="" rows="6" cols="7" placeholder="Skriv något"></textarea>
+            </p>
+            <p>
+                <input type="checkbox" name="checkbox">
+            </p>
+            <p>
+                <input type="radio" value="gillar glass" name="radioKnapp"> 
+                <input type="radio" value="gillar inte glass" name="radioKnapp2">
+            </p>
+            <p>
+                <select name="dropDownLista">
+                    <option value="röd">Röd</option>
+                    <option value="blå">Blå</option>
+                </select>
+            </p>
+            <button type="submit">POST</button>
+        </form>
+    </body>
+</html>

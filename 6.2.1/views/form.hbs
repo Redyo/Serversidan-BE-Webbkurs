@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="sv">
+    <head>
+        <title>Uppgift 5.1.1</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <form method="post" action="send">
+            Namn:
+            <input type="text" name="namn"/>
+            <br>
+            E-post:
+            <input type="text" name="epost"/>
+            <br>
+            Hemsida:
+            <input type="text" name="hemsida"/>
+            <br>
+            Kommentar:
+            <br>
+            <textarea name="kommentar" rows="10" cols="20"></textarea>
+            <br>
+            <input type="submit" value="Lägg till"/>
+        </form>
+        <br>
+        <hr>
+        </div>
+        {{#each post}}
+        <tr>
+            <td>Inlägg</td>
+            <br>
+            <td> Tid: {{this.datum}}
+            <br>
+            <td>Från: {{this.namn}}<br> Epost: <a href="mailto:{{this.epost}}">{{this.epost}}</a> <br></td>
+            <td>Hemsida: <a href="{{this.hemsida}}">{{{this.hemsida}}}</a> </td>
+            <p> Kommentar: {{this.kommentar}} </p>
+        </tr>
+        <hr>
+        {{/each}}
+        </div>
+    </body>
+</html>

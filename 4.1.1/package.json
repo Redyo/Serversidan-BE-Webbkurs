@@ -1,0 +1,12 @@
+{
+  "name": "Serversidan",
+  "version": "1.0.0",
+  "description": "Uppgift 4.1.1",
+  "author": "Alex Rosell",
+  "dependencies": {
+    "express": "^4.15.4",
+    "hbs": "^4.0.1",
+    "moment": "2.18.1",
+    "nodemon": "^1.11.0"
+  }
+}

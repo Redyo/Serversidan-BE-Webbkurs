@@ -1,0 +1,12 @@
+{
+  "Email": {
+    "host": "smtp.gmail.com",
+    "secureConnection": true,
+    "port": 465,
+    "transportMethod": "SMTP",
+    "auth": {
+      "user": "username",
+      "pass": "password"
+    }
+  }
+}

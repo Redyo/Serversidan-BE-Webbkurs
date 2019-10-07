@@ -1,0 +1,12 @@
+Mejl skickat!
+
+Från = alex.rosell1994@gmail.com 
+Till = alex.rosell1994@gmail.com 
+Cc = 
+Bcc = 
+Ärende = Tjenare 
+Datum = 2018-05-18 17:07:42:800 
+
+Meddelande = Hur är läget med dig? 
+
+Observera! Detta meddelande är sänt från ett formulär på Internet och avsändaren kan vara felaktig!

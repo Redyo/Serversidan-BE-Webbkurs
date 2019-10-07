@@ -1,0 +1,13 @@
+{
+  "name": "Serversidan",
+  "version": "1.0.0",
+  "description": "Uppgift 3.1",
+  "author": "Alex Rosell",
+  "dependencies": {
+    "express": "^4.15.4",
+    "flat": "^4.0.0",
+    "hbs": "^4.0.1",
+    "merge": "^1.2.0",
+    "nodemon": "^1.11.0"
+  }
+}
